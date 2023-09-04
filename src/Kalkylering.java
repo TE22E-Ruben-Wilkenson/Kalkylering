@@ -6,6 +6,7 @@ public class Kalkylering {
         int summa;
         int produkt;
         double kvot;
+        double rest;
 
         summa = tal1 + tal2;
         System.out.println(tal1+"+"+tal2+"="+summa);
@@ -23,6 +24,12 @@ public class Kalkylering {
         double tal6 = 3.0;
         kvot = tal5/tal6;
         System.out.println(tal5+"/"+tal6+"="+kvot);
+
+        System.out.println("Uppgift D");
+        
+        rest = tal5 % tal6;
+        System.out.println("Resten av " + tal5 + " och " + tal6 + " är " + rest );
+
 
 
     }
