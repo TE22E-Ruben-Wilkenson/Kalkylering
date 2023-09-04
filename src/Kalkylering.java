@@ -5,6 +5,7 @@ public class Kalkylering {
         int tal2 = 45;
         int summa;
         int produkt;
+        double kvot;
 
         summa = tal1 + tal2;
         System.out.println(tal1+"+"+tal2+"="+summa);
@@ -15,6 +16,14 @@ public class Kalkylering {
         int tal4 = 3424;
         produkt = tal3 * tal4;
         System.out.println(tal3+"*"+tal4+"="+produkt);
+
+        System.out.println("Uppgift C");
+
+        double tal5 = 10.0;
+        double tal6 = 3.0;
+        kvot = tal5/tal6;
+        System.out.println(tal5+"/"+tal6+"="+kvot);
+
 
     }
 }
